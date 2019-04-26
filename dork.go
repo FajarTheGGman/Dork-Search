@@ -1,3 +1,6 @@
+// Please don't recode my program 
+// becouse i take a long time to complete this project
+// Copyright© 2019 by Fajar Firdaus
 package main
 
 import (
