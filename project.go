@@ -12,7 +12,7 @@ import (
 
 func main(){
 title := ansi.Color("Dork-Search By Fajar Firdaus", "green+b:white")
-b1 := ansi.Color("\n[=======================]", "blue")
+b1 := ansi.Color("\n[=======================]\n", "blue")
 b2 := ansi.Color("Coder : Fajar Firdaus\n", "green")
 b3 := ansi.Color("Fb : Fajar Firdaus / Ace.of.spades729\n", "green")
 b4 := ansi.Color("IG : fajar_firdaus_7\n", "green")
@@ -21,7 +21,7 @@ b6 := ansi.Color("[=======================]\n", "blue")
 tanda1 := ansi.Color("[", "green")
 tanda2 := ansi.Color("]", "green")
 input2 := ansi.Color("[ Input ] > ", "white+b:blue")
-result := ansi.Color("[ Result ]\n", "green+b:blue")
+result := ansi.Color("[ Result ]", "green+b:blue")
 
 fmt.Print(title)
 fmt.Print(b1)
